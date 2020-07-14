@@ -49,3 +49,4 @@ const navigateCarrossel = () => {
 };
 
 navigateCarrossel();
+let rellax = new Rellax('.rellax');
