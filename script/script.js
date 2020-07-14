@@ -10,8 +10,6 @@ const navigateCarrossel = () => {
         carrosselCollection[counter].classList.remove('opacity');
         let hideCurrentItem = setTimeout(() => {
             carrosselCollection[counter].classList.remove('display');
-            
-            
         }, 100);
         
         let displayNextItem = setTimeout(() => {
