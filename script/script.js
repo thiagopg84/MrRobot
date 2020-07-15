@@ -57,7 +57,7 @@ const navigateCarrossel = function(carrossel, imageOutput, captionOutput, fButto
     }
 
     fButton.addEventListener('click', () => {
-        btnAction(btn1);
+        btnAction(fButton);
         if (counter < carrossel.length - 1) {
             counter++
         } else {
@@ -66,7 +66,7 @@ const navigateCarrossel = function(carrossel, imageOutput, captionOutput, fButto
     });
 
     pButton.addEventListener('click', () => {
-        btnAction(btn2);
+        btnAction(pButton);
         if (counter > 0) {
             counter--;
         } else {
